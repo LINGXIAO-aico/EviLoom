@@ -9,7 +9,6 @@ import numpy as np
 from .selector import robust_distribution
 from .types import EvidenceChannel, OperatorConfig
 
-
 RELATION_CAPS = {
     "first": 0.12,
     "last": 0.12,

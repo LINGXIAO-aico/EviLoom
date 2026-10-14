@@ -11,7 +11,6 @@ import json
 import re
 from dataclasses import dataclass, field
 
-
 PLANNER_PROMPT = """You are an option-blind evidence planner for long-video QA.
 You receive only a QUESTION and a few query-relevant ANCHOR frames. Never answer
 the question and never inspect or enumerate answer choices.
