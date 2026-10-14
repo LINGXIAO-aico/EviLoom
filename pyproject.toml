@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eviloom-videoqa"
 version = "0.1.0"
-description = "Training-free distribution-aware evidence selection for long-video QA"
+description = "Training-free distribution-aware evidence coverage for long-video QA"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}

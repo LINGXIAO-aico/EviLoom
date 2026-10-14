@@ -50,13 +50,3 @@ and share the same evidence role. Packetization changes presentation only: it
 never adds, removes or replaces a selected frame. This makes local event
 continuity visible to the answer model while preserving a fixed 32-frame
 selection budget.
-
-## 6. EviLoom-C
-
-EviLoom-C is an experimental complement-aware extension. It proposes an
-unselected runner for a selected anchor, estimates whether the pair provides
-conditional information unavailable from either frame alone, bounds pair
-utility by the anchor's exclusive base utility, and accepts only exact
-positive-gain swaps. It performed well on MLVU and LVBench development subsets
-but was not consistently better across datasets; therefore it remains an
-optional research component rather than the default selector.

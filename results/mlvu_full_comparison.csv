@@ -1,7 +1,7 @@
 method,n,score,protocol
-Uniform,2174,62.4444948923,lmms_unified_b32_v2
-FOCUS,2174,66.9390522905,lmms_unified_b32_v2
-AKS,2174,67.4096304413,lmms_unified_b32_v2
-BOLT,2174,68.0255886896,lmms_unified_b32_v2
-Top-K,2174,68.1949746544,lmms_unified_b32_v2
-EviLoom,2174,69.4109542826,lmms_unified_b32_v2
+Uniform,2174,62.4444948923,lmms_eval_b32
+FOCUS,2174,66.9390522905,lmms_eval_b32
+AKS,2174,67.4096304413,lmms_eval_b32
+BOLT,2174,68.0255886896,lmms_eval_b32
+Top-K,2174,68.1949746544,lmms_eval_b32
+EviLoom,2174,69.4109542826,lmms_eval_b32

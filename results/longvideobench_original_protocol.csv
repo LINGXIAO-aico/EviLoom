@@ -1,0 +1,5 @@
+method,n,accuracy,ci95_low,ci95_high,answer_model,frame_budget,fps,subtitles,protocol
+Top-K,1337,55.50,52.80,58.19,Qwen2.5-VL-7B-Instruct,32,1,true,original_research_pipeline
+FOCUS-local,1337,55.57,52.88,58.26,Qwen2.5-VL-7B-Instruct,32,1,true,original_research_pipeline
+Top-K-Packet,1337,56.99,54.30,59.61,Qwen2.5-VL-7B-Instruct,32,1,true,original_research_pipeline
+EviLoom,1337,58.26,55.57,60.88,Qwen2.5-VL-7B-Instruct,32,1,true,original_research_pipeline

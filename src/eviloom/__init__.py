@@ -1,6 +1,5 @@
 """EviLoom: training-free evidence selection for long-video QA."""
 
-from .cperd import select_cperd, select_eviloom_c
 from .operators import (
     FlowEvidence,
     build_calibrated_operator_channels,
@@ -10,11 +9,9 @@ from .operators import (
 )
 from .packet import build_packets
 from .planner import PLANNER_PROMPT, FlowSpec, StructuredPlan, parse_structured_plan
-from .selector import robust_distribution, select_eviloom, select_perd_v2
+from .selector import robust_distribution, select_eviloom
 from .types import (
-    CPERDResult,
     EvidenceChannel,
-    EviLoomCResult,
     OperatorConfig,
     SelectionResult,
     SelectorConfig,
@@ -22,8 +19,6 @@ from .types import (
 
 __all__ = [
     "PLANNER_PROMPT",
-    "CPERDResult",
-    "EviLoomCResult",
     "EvidenceChannel",
     "FlowEvidence",
     "FlowSpec",
@@ -38,9 +33,6 @@ __all__ = [
     "infer_temporal_relation",
     "parse_structured_plan",
     "robust_distribution",
-    "select_cperd",
     "select_eviloom",
-    "select_eviloom_c",
-    "select_perd_v2",
 ]
 

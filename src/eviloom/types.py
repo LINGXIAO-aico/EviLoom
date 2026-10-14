@@ -53,25 +53,3 @@ class SelectionResult:
     packets: list[dict]
     diagnostics: dict = field(default_factory=dict)
 
-
-@dataclass
-class PairCandidate:
-    anchor: int
-    runner: int
-    prefilter_score: float
-    critic_margin: float = 0.0
-    calibrated_score: float = 0.0
-    weight: float = 0.0
-
-
-@dataclass
-class EviLoomCResult:
-    indices: list[int]
-    candidates: list[PairCandidate] = field(default_factory=list)
-    accepted_swaps: list[dict] = field(default_factory=list)
-    diagnostics: dict = field(default_factory=dict)
-
-
-# Backward-compatible research name used by the server experiments.
-CPERDResult = EviLoomCResult
-

@@ -208,8 +208,3 @@ def select_eviloom(
         },
     )
 
-
-# Compatibility alias for the internal experiment identifier used in the
-# released provenance table. The implementation is identical.
-select_perd_v2 = select_eviloom
-
