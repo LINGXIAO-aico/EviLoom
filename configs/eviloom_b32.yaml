@@ -1,0 +1,41 @@
+method: eviloom
+budget: 32
+candidate_fps: 1
+
+distribution:
+  temperature: 1.0
+
+objective:
+  direct_weight: 0.35
+  time_scale_sec: 4.0
+  time_window_sec: 12.0
+
+operators:
+  total_weight_cap: 0.20
+  single_weight_cap: 0.12
+  reliability_power: 2.0
+  min_effective_weight: 0.01
+  relation_caps:
+    first: 0.12
+    last: 0.12
+    before: 0.10
+    after: 0.08
+    recurrence: 0.08
+    same_time: 0.00
+  max_peaks: 12
+  max_reference_peaks: 6
+  min_nms_sec: 4.0
+  duration_fraction: 0.005
+  min_peak_z: 1.0
+  sigma_sec: 2.0
+  direction_tau_sec: 32.0
+  direction_duration_fraction: 0.05
+  direction_margin_sec: 1.0
+
+planner:
+  option_blind: true
+  anchor_frames: 6
+  max_flows: 3
+
+presentation:
+  packet_max_gap_sec: 4.0

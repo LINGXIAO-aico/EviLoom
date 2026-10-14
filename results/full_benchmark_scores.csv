@@ -1,0 +1,5 @@
+dataset,n,metric,score,answer_model,frame_budget
+Video-MME,2700,videomme_perception_score,63.3333333333,Qwen2.5-VL-7B-Instruct,32
+LongVideoBench,1337,lvb_acc,61.556,Qwen2.5-VL-7B-Instruct,32
+MLVU,2174,mlvu_7_task_macro_accuracy,69.4109542826,Qwen2.5-VL-7B-Instruct,32
+LVBench,1549,lvbench_score,45.5132343447,Qwen2.5-VL-7B-Instruct,32

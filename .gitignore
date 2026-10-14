@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+
+# Never commit benchmark data, decoded frames, model weights or caches.
+data/
+datasets/
+videos/
+frames/
+cache/
+outputs/
+checkpoints/
+models/
+*.mp4
+*.mkv
+*.avi
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npy
+*.npz
+*.jsonl
+
+# Local experiment traces.
+logs/
+wandb/
+tmux*.log
